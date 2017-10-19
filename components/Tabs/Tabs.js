@@ -64,6 +64,8 @@ class Tabs {
     // deselect the old active link
     // assign the new active link
     this.activeLink.deselect();
+
+    //next time a button isclicked, the active will continue to update which is de selected. 
     this.activeLink = newActive;
   }
 
