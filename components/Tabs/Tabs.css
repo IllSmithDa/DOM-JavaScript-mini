@@ -1,4 +1,4 @@
-.Tabs__item {
+ .Tabs__item {
   display: none;
 }
 
@@ -16,4 +16,5 @@
 .Tabs__link-selected {
   background-color: white;
   border: solid 1px gray;
+  padding:10px;
 }
